@@ -9,3 +9,4 @@ SETUP PROJECT
 -> Copy the src folder from your cloned project to your newly created React project. You can do this manually by dragging the src folder from the cloned project into the my-project directory, replacing the existing src folder.
 -> npm start
 
+
