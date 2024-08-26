@@ -1,0 +1,84 @@
+.App {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+textarea, input[type="number"], select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+textarea {
+  resize: vertical;
+  height: 80px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.feedback-item {
+  background-color: #ffffff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.feedback-item p {
+  margin: 5px 0;
+}
+
+.feedback-item button {
+  margin-right: 10px;
+  background-color: #28a745;
+}
+
+.feedback-item button:hover {
+  background-color: #218838;
+}
+
+.feedback-item button:last-of-type {
+  background-color: #dc3545;
+}
+
+.feedback-item button:last-of-type:hover {
+  background-color: #c82333;
+}
